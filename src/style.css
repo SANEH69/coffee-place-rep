@@ -4,13 +4,14 @@ body {
     background-position: center;
     background-size: cover;
 }
-main h1, p {
+main {
     text-align: center;
 }
 .content {
-    max-width: 500px;
+    max-width: 80%;
     background-color: blanchedalmond;
-    margin: auto;
+    margin: 5px auto;
+    padding: 20px;
 }
 nav {
     background-color: blanchedalmond;
@@ -24,10 +25,30 @@ nav li {
     line-height: 42px;
     margin-left: 15px;
   }
-nav a {
+a {
     color: black;
     text-decoration: none;
 }
-nav a:hover {
+a:hover {
     color: brown;
+}
+img {
+    width: 70%;
+}
+.why-visit {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+button {
+    padding: 10px 15px;
+    background-color: #916E56;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+footer {
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
 }
