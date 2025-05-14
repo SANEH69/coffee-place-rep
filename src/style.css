@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient(rgba(0, 0 , 0, 0.7), rgba(0, 0 , 0, 0.7)), url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/165/839/original/images.jpg?1747247078);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main h1, p {
+    text-align: center;
+}
+.content {
+    max-width: 500px;
+    background-color: blanchedalmond;
+    margin: auto;
+}
+nav {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 5px;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+  }
+nav a {
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    color: brown;
+}
