@@ -42,12 +42,15 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-button {
+button, input[type="submit"] {
     padding: 10px 15px;
     background-color: #916E56;
     border: 1px solid transparent;
     border-radius: 5px;
     box-shadow: 0 0 20px 0 rgb(48, 35, 35);
+}
+input[type="submit"] {
+    width: unset;
 }
 footer {
     background-color: blanchedalmond;
