@@ -13,6 +13,9 @@ main {
     margin: 5px auto;
     padding: 20px;
 }
+.menu {
+    max-width: 50%;
+}
 nav {
     background-color: blanchedalmond;
     display: flex;
@@ -44,15 +47,35 @@ button {
     background-color: #916E56;
     border: 1px solid transparent;
     border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgb(48, 35, 35);
 }
 footer {
     background-color: blanchedalmond;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    padding: 20px;
     text-align: center;
 }
 ul {
     list-style-type: none;
+}
+article strong {
+    text-align: left;
+}
+.coffee-section {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+article p {
+    display: inline-block;
+    margin: 5px auto
+}
+.coffee {
+    text-align: left;
+    width: 75%;
+}
+.price {
+    text-align: right;
+    width: 25%;
 }
