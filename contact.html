@@ -30,18 +30,18 @@
             <h2>Contact Us</h2>
             <hr>
             <section>
-               <form action="https://formspree.io/f/xovdygwp" method="post">
+               <form action="https://formspree.io/f/xovdygwp" method="POST">
                 <label for="full-name">
                     Enter your full name:
-                    <input type="text" id="full-name" placeholder="Sanelisiwe Ngubane">
+                    <input type="text" id="full-name" name="full-name" placeholder="Sanelisiwe Ngubane" required>
                 </label>
                 <label for="email">
                     Enter your email address:
-                    <input type="email" id="email" placeholder="james@yahoo.com">
+                    <input type="email" id="email" name="email" placeholder="james@yahoo.com" required >
                 </label>
                 <label>
                     Enter your message:
-                    <textarea id="message" rows="4" cols="50" placeholder="Hello, I would like to make a reservation..."></textarea>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Hello, I would like to make a reservation..." required></textarea>
                 </label>
                 <input type="submit" value="Submit" />
                </form>
