@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(0, 0 , 0, 0.7), rgba(0, 0 , 0, 0.7)), url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/165/839/original/images.jpg?1747247078);
+    background-image: linear-gradient(rgba(0, 0 , 0, 0.7), rgba(0, 0 , 0, 0.7)), url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/003/original/pexels-khadijah-27993241.jpg?1747409432);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -88,4 +88,21 @@ input, textarea {
 }
 .contact {
     padding: 50px 20px;
+}
+.material-symbols-outlined {
+    font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
 }
