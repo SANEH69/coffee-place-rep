@@ -12,6 +12,8 @@ main {
     background-color: blanchedalmond;
     margin: 5px auto;
     padding: 20px;
+    border-radius: 5px;
+    border: black 5px double;
 }
 .menu {
     max-width: 50%;
@@ -21,6 +23,8 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 1px 5px;
+    border-radius: 5px;
+    border: black 5px double;
 }
 nav li {
     display: inline;
@@ -59,6 +63,8 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     text-align: center;
+    border-radius: 5px;
+    border: black 5px double;
 }
 ul {
     list-style-type: none;
