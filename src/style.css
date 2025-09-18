@@ -20,7 +20,7 @@ nav {
     background-color: blanchedalmond;
     display: flex;
     justify-content: space-between;
-    padding: 2px 5px;
+    padding: 1px 5px;
 }
 nav li {
     display: inline;
